@@ -13,7 +13,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.python.keras.callbacks import EarlyStopping, ModelCheckpoint
 
-NUM_CLASSES = 29
+NUM_CLASSES = 28
 CHANNELS = 3
 IMAGE_RESIZE = 224
 RESNET50_POOLING_AVERAGE = 'avg'
